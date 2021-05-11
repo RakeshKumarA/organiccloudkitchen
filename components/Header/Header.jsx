@@ -101,59 +101,104 @@ const Header = (props) => {
                   justify="flex-end"
                 >
                   <Box component={Grid} item>
-                    <Button variant="text" color="primary">
-                      <Typography
-                        variant="subtitle1"
-                        color="initial"
-                        className={classes.buttonTextStyle}
-                      >
-                        Home
-                      </Typography>
-                    </Button>
+                    <Link
+                      activeClass="active"
+                      to="section1"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      <Button variant="text" color="primary">
+                        <Typography
+                          variant="subtitle1"
+                          color="initial"
+                          className={classes.buttonTextStyle}
+                        >
+                          Home
+                        </Typography>
+                      </Button>
+                    </Link>
                   </Box>
                   <Box component={Grid} item>
-                    <Button variant="text" color="primary">
-                      <Typography
-                        variant="subtitle1"
-                        color="initial"
-                        className={classes.buttonTextStyle}
-                      >
-                        About
-                      </Typography>
-                    </Button>
+                    <Link
+                      activeClass="active"
+                      to="section2"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      <Button variant="text" color="primary">
+                        <Typography
+                          variant="subtitle1"
+                          color="initial"
+                          className={classes.buttonTextStyle}
+                        >
+                          About
+                        </Typography>
+                      </Button>
+                    </Link>
                   </Box>
                   <Box component={Grid} item>
-                    <Button variant="text" color="primary">
-                      <Typography
-                        variant="subtitle1"
-                        color="initial"
-                        className={classes.buttonTextStyle}
-                      >
-                        Why Us
-                      </Typography>
-                    </Button>
+                    <Link
+                      activeClass="active"
+                      to="section3"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      <Button variant="text" color="primary">
+                        <Typography
+                          variant="subtitle1"
+                          color="initial"
+                          className={classes.buttonTextStyle}
+                        >
+                          Why Us
+                        </Typography>
+                      </Button>
+                    </Link>
                   </Box>
                   <Box component={Grid} item>
-                    <Button variant="text" color="primary">
-                      <Typography
-                        variant="subtitle1"
-                        color="initial"
-                        className={classes.buttonTextStyle}
-                      >
-                        Services
-                      </Typography>
-                    </Button>
+                    <Link
+                      activeClass="active"
+                      to="section4"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      <Button variant="text" color="primary">
+                        <Typography
+                          variant="subtitle1"
+                          color="initial"
+                          className={classes.buttonTextStyle}
+                        >
+                          Services
+                        </Typography>
+                      </Button>
+                    </Link>
                   </Box>
                   <Box component={Grid} item>
-                    <Button variant="text" color="primary">
-                      <Typography
-                        variant="subtitle1"
-                        color="initial"
-                        className={classes.buttonTextStyle}
-                      >
-                        Contact us
-                      </Typography>
-                    </Button>
+                    <Link
+                      activeClass="active"
+                      to="section5"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      <Button variant="text" color="primary">
+                        <Typography
+                          variant="subtitle1"
+                          color="initial"
+                          className={classes.buttonTextStyle}
+                        >
+                          Contact us
+                        </Typography>
+                      </Button>
+                    </Link>
                   </Box>
                 </Box>
               </Box>
@@ -177,59 +222,104 @@ const Header = (props) => {
                   justify="flex-end"
                 >
                   <Box component={Grid} item>
-                    <Button variant="text" color="primary">
-                      <Typography
-                        variant="subtitle1"
-                        color="initial"
-                        className={classes.buttonTextStyle}
-                      >
-                        Home
-                      </Typography>
-                    </Button>
+                    <Link
+                      activeClass="active"
+                      to="section1"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      <Button variant="text" color="primary">
+                        <Typography
+                          variant="subtitle1"
+                          color="initial"
+                          className={classes.buttonTextStyle}
+                        >
+                          Home
+                        </Typography>
+                      </Button>
+                    </Link>
                   </Box>
                   <Box component={Grid} item>
-                    <Button variant="text" color="primary">
-                      <Typography
-                        variant="subtitle1"
-                        color="initial"
-                        className={classes.buttonTextStyle}
-                      >
-                        About
-                      </Typography>
-                    </Button>
+                    <Link
+                      activeClass="active"
+                      to="section2"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      <Button variant="text" color="primary">
+                        <Typography
+                          variant="subtitle1"
+                          color="initial"
+                          className={classes.buttonTextStyle}
+                        >
+                          About
+                        </Typography>
+                      </Button>
+                    </Link>
                   </Box>
                   <Box component={Grid} item>
-                    <Button variant="text" color="primary">
-                      <Typography
-                        variant="subtitle1"
-                        color="initial"
-                        className={classes.buttonTextStyle}
-                      >
-                        Why Us
-                      </Typography>
-                    </Button>
+                    <Link
+                      activeClass="active"
+                      to="section3"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      <Button variant="text" color="primary">
+                        <Typography
+                          variant="subtitle1"
+                          color="initial"
+                          className={classes.buttonTextStyle}
+                        >
+                          Why Us
+                        </Typography>
+                      </Button>
+                    </Link>
                   </Box>
                   <Box component={Grid} item>
-                    <Button variant="text" color="primary">
-                      <Typography
-                        variant="subtitle1"
-                        color="initial"
-                        className={classes.buttonTextStyle}
-                      >
-                        Services
-                      </Typography>
-                    </Button>
+                    <Link
+                      activeClass="active"
+                      to="section4"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      <Button variant="text" color="primary">
+                        <Typography
+                          variant="subtitle1"
+                          color="initial"
+                          className={classes.buttonTextStyle}
+                        >
+                          Services
+                        </Typography>
+                      </Button>
+                    </Link>
                   </Box>
                   <Box component={Grid} item>
-                    <Button variant="text" color="primary">
-                      <Typography
-                        variant="subtitle1"
-                        color="initial"
-                        className={classes.buttonTextStyle}
-                      >
-                        Contact us
-                      </Typography>
-                    </Button>
+                    <Link
+                      activeClass="active"
+                      to="section5"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      <Button variant="text" color="primary">
+                        <Typography
+                          variant="subtitle1"
+                          color="initial"
+                          className={classes.buttonTextStyle}
+                        >
+                          Contact us
+                        </Typography>
+                      </Button>
+                    </Link>
                   </Box>
                 </Box>
               </Box>
@@ -260,69 +350,114 @@ const Header = (props) => {
                     onKeyDown={toggleDrawer(false)}
                   >
                     <List>
-                      <ListItem button>
-                        <ListItemText>
-                          <Typography
-                            variant="h6"
-                            color="primary"
-                            align="center"
-                          >
-                            Home
-                          </Typography>
-                        </ListItemText>
-                      </ListItem>
+                      <Link
+                        activeClass="active"
+                        to="section1"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                      >
+                        <ListItem button>
+                          <ListItemText>
+                            <Typography
+                              variant="h6"
+                              color="primary"
+                              align="center"
+                            >
+                              Home
+                            </Typography>
+                          </ListItemText>
+                        </ListItem>
+                      </Link>
                     </List>
                     <List>
-                      <ListItem button>
-                        <ListItemText>
-                          <Typography
-                            variant="h6"
-                            color="primary"
-                            align="center"
-                          >
-                            About
-                          </Typography>
-                        </ListItemText>
-                      </ListItem>
+                      <Link
+                        activeClass="active"
+                        to="section2"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                      >
+                        <ListItem button>
+                          <ListItemText>
+                            <Typography
+                              variant="h6"
+                              color="primary"
+                              align="center"
+                            >
+                              About
+                            </Typography>
+                          </ListItemText>
+                        </ListItem>
+                      </Link>
                     </List>
                     <List>
-                      <ListItem button>
-                        <ListItemText>
-                          <Typography
-                            variant="h6"
-                            color="primary"
-                            align="center"
-                          >
-                            Why Us
-                          </Typography>
-                        </ListItemText>
-                      </ListItem>
+                      <Link
+                        activeClass="active"
+                        to="section3"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                      >
+                        <ListItem button>
+                          <ListItemText>
+                            <Typography
+                              variant="h6"
+                              color="primary"
+                              align="center"
+                            >
+                              Why Us
+                            </Typography>
+                          </ListItemText>
+                        </ListItem>
+                      </Link>
                     </List>
                     <List>
-                      <ListItem button>
-                        <ListItemText>
-                          <Typography
-                            variant="h6"
-                            color="primary"
-                            align="center"
-                          >
-                            Services
-                          </Typography>
-                        </ListItemText>
-                      </ListItem>
+                      <Link
+                        activeClass="active"
+                        to="section4"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                      >
+                        <ListItem button>
+                          <ListItemText>
+                            <Typography
+                              variant="h6"
+                              color="primary"
+                              align="center"
+                            >
+                              Services
+                            </Typography>
+                          </ListItemText>
+                        </ListItem>
+                      </Link>
                     </List>
                     <List>
-                      <ListItem button>
-                        <ListItemText>
-                          <Typography
-                            variant="h6"
-                            color="primary"
-                            align="center"
-                          >
-                            Contact Us
-                          </Typography>
-                        </ListItemText>
-                      </ListItem>
+                      <Link
+                        activeClass="active"
+                        to="section5"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                      >
+                        <ListItem button>
+                          <ListItemText>
+                            <Typography
+                              variant="h6"
+                              color="primary"
+                              align="center"
+                            >
+                              Contact Us
+                            </Typography>
+                          </ListItemText>
+                        </ListItem>
+                      </Link>
                     </List>
                   </div>
                 </Drawer>
