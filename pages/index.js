@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import Header from "../components/Header/Header";
-import ScrollRV from "../components/Scroll/ScrollRV";
 import AboutSection from "../components/Section/AboutSection";
 import ContactSection from "../components/Section/ContactSection";
 import HomeSection from "../components/Section/HomeSection";
@@ -20,29 +19,19 @@ export default function Home() {
       </Head>
       <Header />
       <div id="section1">
-        <ScrollRV>
-          <HomeSection />
-        </ScrollRV>
+        <HomeSection />
       </div>
       <div id="section2">
-        <ScrollRV>
-          <AboutSection />
-        </ScrollRV>
+        <AboutSection />
       </div>
       <div id="section3">
-        <ScrollRV>
-          <WhyUsSection />
-        </ScrollRV>
+        <WhyUsSection />
       </div>
       <div id="section4">
-        <ScrollRV>
-          <ServicesSection />
-        </ScrollRV>
+        <ServicesSection />
       </div>
       <div id="section5">
-        <ScrollRV>
-          <ContactSection />
-        </ScrollRV>
+        <ContactSection />
       </div>
     </>
   );
