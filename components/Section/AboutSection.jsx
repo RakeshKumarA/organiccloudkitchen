@@ -40,7 +40,7 @@ const AboutSection = () => {
           alignItems="center"
         >
           <Grid item>
-            <Image src="/aboutsection.jpg" width="640" height="423" />
+            <Image src="/aboutsection-min.jpg" width="640" height="423" />
           </Grid>
         </Grid>
         <Grid
@@ -114,7 +114,7 @@ const AboutSection = () => {
           alignItems="center"
           className={classes.paddingres}
         >
-          <Image src="/aboutsection.jpg" width="640" height="423" />
+          <Image src="/aboutsection-min.jpg" width="640" height="423" />
         </Grid>
       </Box>
     </Grid>

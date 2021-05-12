@@ -65,7 +65,7 @@ const HomeSection = () => {
         </Grid>
         <Grid item md={6} container justify="center" alignItems="center">
           <Grid item>
-            <Image src="/homesection.png" width="400" height="400" />
+            <Image src="/homesection-min.png" width="400" height="400" />
           </Grid>
         </Grid>
       </Box>
@@ -111,7 +111,7 @@ const HomeSection = () => {
         </Grid>
         <Grid item sm={6} container justify="center" alignItems="center">
           <Grid item>
-            <Image src="/homesection.png" width="400" height="400" />
+            <Image src="/homesection-min.png" width="400" height="400" />
           </Grid>
         </Grid>
       </Box>

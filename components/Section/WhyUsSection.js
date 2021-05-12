@@ -75,7 +75,7 @@ const WhyUsSection = () => {
           alignItems="center"
         >
           <Grid item>
-            <Image src="/whyussection.jpg" width="640" height="423" />
+            <Image src="/whyussection-min.jpg" width="640" height="423" />
           </Grid>
         </Grid>
       </Box>
@@ -128,7 +128,7 @@ const WhyUsSection = () => {
           alignItems="center"
           className={classes.paddingres}
         >
-          <Image src="/whyussection.jpg" width="640" height="423" />
+          <Image src="/whyussection-min.jpg" width="640" height="423" />
         </Grid>
       </Box>
     </Grid>
