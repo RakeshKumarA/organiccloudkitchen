@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Image from "next/image";
+
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -218,7 +218,11 @@ const Header = (props) => {
                 alignItems="center"
               >
                 <Box component={Grid} item md={2}>
-                  <Image src="/logo.png" width="40" height="58" />
+                  <img
+                    src="/logo.png"
+                    alt="logo"
+                    className={classes.logoStyle}
+                  />
                 </Box>
                 <Box
                   component={Grid}
@@ -339,7 +343,11 @@ const Header = (props) => {
                 alignItems="center"
               >
                 <Box component={Grid} item flexGrow={1}>
-                  <Image src="/logo.png" width="40" height="58" />
+                  <img
+                    src="/logo.png"
+                    alt="logo"
+                    className={classes.logoStyle}
+                  />
                 </Box>
                 <Box component={Grid} item>
                   <IconButton onClick={toggleDrawer(true)}>

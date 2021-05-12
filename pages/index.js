@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Header from "../components/Header/Header";
 import AboutSection from "../components/Section/AboutSection";
 import ContactSection from "../components/Section/ContactSection";
