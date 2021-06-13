@@ -121,7 +121,7 @@ const HomeSection = () => {
         <Grid item sm={6} container justify="center" alignItems="center">
           <Grid item>
             <img
-              src="/homesection-min.png"
+              src="/homesection-min.jpg"
               alt="home"
               className={classes.imageStyleres}
             />
